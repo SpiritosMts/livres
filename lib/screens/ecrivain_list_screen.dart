@@ -52,12 +52,7 @@ class _EcrivainListScreenState extends State<EcrivainListScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Écrivains'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-      ),
-      body: Column(
+    return Column(
         children: [
           // Barre de recherche
           Padding(
@@ -204,18 +199,6 @@ class _EcrivainListScreenState extends State<EcrivainListScreen> {
             ),
           ),
         ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const EcrivainFormScreen(),
-            ),
-          );
-        },
-        child: const Icon(Icons.add),
-      ),
     );
   }
 }
