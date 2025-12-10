@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523265019386",
+    "project_id": "livre-5a162",
+    "storage_bucket": "livre-5a162.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523265019386:android:8298f19b9dbf42a4ca6843",
+        "android_client_info": {
+          "package_name": "com.lelouchdev.livres"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdJRXehx3MTQnMLvb-U2QMy-6S3ejkSac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

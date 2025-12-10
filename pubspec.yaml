@@ -1,0 +1,29 @@
+name: livres
+description: "Application de gestion de bibliothèque avec Firebase"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  firebase_core:
+  cloud_firestore:
+  firebase_storage:
+  image_picker:
+  cached_network_image:
+  uuid:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
